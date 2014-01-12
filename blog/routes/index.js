@@ -211,8 +211,8 @@ module.exports = function(app) {
 				title: req.params.title,
 				post: post,
 				user: req.session.user,
-				success: req.flash('success').toString,
-				error: req.flash('error').toString
+				success: req.flash('success').toString(),
+				error: req.flash('error').toString()
 			});
 		});
 	});
