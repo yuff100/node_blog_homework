@@ -4,3 +4,4 @@ How to deploy the blog:
 1. npm install in /blog.
 2. mongod -dbpath ~/blog.
 3. supervisor blog/app.
+4. Open in brower: http://localhost:3000.
